@@ -1,0 +1,14 @@
+<ons-page ng-controller="SetPlayerCtrl as playerCl">
+    <ons-toolbar>
+      <div class="left" ng-click="playerCl.back()">
+        <ons-toolbar-button>
+          <ons-icon icon="ion-close-round" fixed-width="false" style="font-size: 26px; vertical-align: -4px"></ons-icon>
+        </ons-toolbar-button>
+      </div>
+      <div class="center">プレイヤー設定</div>
+    </ons-toolbar>
+
+    <div class="content" style="margin: 10px;">
+      <ons-button ng-click="playerCl.backTop()">結果一覧画面へ</ons-button>
+    </div>
+</ons-page>
